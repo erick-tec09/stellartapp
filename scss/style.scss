@@ -1,9 +1,12 @@
 
 //importaciones 
-@import 'componets/initialize';  //inicializo el css
-@import 'componets/global';
+// @import 'componets/inizialite';  //inicializo el css
 @import 'componets/variables';
+@import 'componets/golbal';
 @import 'componets/mixing';
 
+@import 'componets/header';
+@import 'componets/menu';
+@import 'componets/hero';
 @import 'componets/foother';
 

@@ -1,14 +1,47 @@
-//Mixing 
-@mixin titles {
-   
-    
+@mixin flex-row {
+    isplay: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
 }
 
-@mixin subtitles {
-  
-    
+@mixin flex-colum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
-@mixin team {
-    
+@mixin btn {
+    display: block;
+        text-align: center;
+        padding: 15px 0px;
+        margin: 20px;
+        border-radius: 25px;
+        width: 170px;
+
 }
+
+@mixin btn-create {
+    background: linear-gradient(90deg, #2949E0 0%, #C32FF7 100%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+       
+}
+
+
+//========================= Media query =============================================
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }

@@ -1,0 +1,44 @@
+.foother{
+    background: $bg-dark;
+    color: $bg-light;
+    
+    padding: 0px auto;
+    .header__foother{
+
+        display: flex;
+       
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        .img_foother{
+
+        }
+        .nav__foother{
+
+            margin-top: 20px;
+            background: yellow;
+            
+             .lists__foother{
+
+                margin-top: 20px;
+                background: red;
+             }
+             .list__foother{
+                 background: red;
+                 margin-top: 300px;
+             }
+        
+        }
+    }
+    .btn__foother{
+
+       
+    }
+    
+    .copyright{
+
+        text-align: center;
+        padding: 20px 0px;
+
+    }
+}

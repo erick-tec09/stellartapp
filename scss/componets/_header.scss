@@ -1,0 +1,23 @@
+.header{
+
+    background: $bg-dark;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    .menu-primary{
+
+      
+    
+    }
+    .bar{
+        color: $bar;
+        order: 2;
+        font-size: 1.5em;
+        cursor: pointer;
+        
+
+    }
+
+
+}

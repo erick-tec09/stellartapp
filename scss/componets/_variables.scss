@@ -1,16 +1,34 @@
 
-// variables
+// variables===================================
 $bg-dark: #0F0E11;
+$bg-light: #FFFFFF;
 $titles: #FFFFFF;
 
 
-//fuentes
+$border-btn: 1px solid #fff;
+
+$bar: #FFFFFF;
+
+
+//fuentes nombres==================================
 $familyPrimary:  'Bitter', serif;
 $familySecuandary:  'Open Sans', sans-serif;
+$familyOptional:  'Poppins', sans-serif;
 
 
+// fuentes grosor=================================
 $font-weight-b: bold;
 $font-weight-l: 300;
 
-$font-zise: 16px;
+
+//fuentes tamaño===================================
+$zise: 16px;
 $line-height: 25px;
+
+
+
+//medidas dispositivos===============================
+$breakpoint-movil: 576px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktops: 992px;
+$breakpoint-desktops-larg: 1200px;
