@@ -1,4 +1,4 @@
-body{
+*,body , *::before, *::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,9 +7,13 @@ body{
     
 }
 
+
+li{
+    list-style: none;
+}
 a{
     text-decoration: none;
-    color: #ffff;
+   
 }
 input, textarea{
     outline: none;

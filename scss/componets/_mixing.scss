@@ -23,6 +23,13 @@
         width: 170px;
 
 }
+@mixin menu-bar {
+    color: $bar;
+    order: 2;
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
 
 @mixin btn-create {
     background: linear-gradient(90deg, #2949E0 0%, #C32FF7 100%);

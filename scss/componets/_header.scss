@@ -11,10 +11,7 @@
     
     }
     .bar{
-        color: $bar;
-        order: 2;
-        font-size: 1.5em;
-        cursor: pointer;
+       @include menu-bar;
         
 
     }

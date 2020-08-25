@@ -1,8 +1,10 @@
 .foother{
     background: $bg-dark;
     color: $bg-light;
+    padding: 20px 30px;
+    border: 1px solid red;
     
-    padding: 0px auto;
+   
     .header__foother{
 
         display: flex;
@@ -13,32 +15,60 @@
         .img_foother{
 
         }
-        .nav__foother{
-
-            margin-top: 20px;
-            background: yellow;
-            
-             .lists__foother{
-
-                margin-top: 20px;
-                background: red;
-             }
-             .list__foother{
-                 background: red;
-                 margin-top: 300px;
-             }
         
+        .btn__foother{
+
+
+         
         }
+       
+    
     }
-    .btn__foother{
+.nav__foother{
+    margin-top: 20px;
+    height: 200px;
+     .lists__foother{
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        flex-wrap: wrap;
+        margin: 0px auto; 
+    }
+    .list_foother{
+            
+        padding: 20px 0px;
+           margin-left: 20px;
+
+   
+      .foother__link{
+
+          font-family:  $familySecuandary;
+          color: red;
+      
+         
+      
+      }
+  }
+  
+     
+
+}
+
+.foother__icons{
+    text-align: center;
+    font-size: 1.2em;
+    .foother__icons{
+        margin: 0px 5px;
+        cursor: pointer;
 
        
     }
-    
-    .copyright{
+}
+.copyright{
 
-        text-align: center;
-        padding: 20px 0px;
+    text-align: center;
+    padding:  30px 30px;
 
-    }
+}
+
 }
