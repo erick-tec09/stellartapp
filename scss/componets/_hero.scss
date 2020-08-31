@@ -1,3 +1,39 @@
 .hero{
     
+
+    background: $bg-dark;
+    color: $bg-light;
+    padding: 0px 30px;
+    height: 320px;
+    
+    .hero__title{
+
+        padding: 20px 0px;
+        line-height: 40px;
+        font-size:  40px;
+        font-family: $familyPrimary;
+        text-transform: capitalize;
+    
+    }
+    .hero__text{
+       
+        font-family: $familySecuandary;
+        margin: 10px 0px;
+        font-size: 20px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .hero__link{
+
+         color: $bg-light;
+        display: block;
+         border-radius: 20px;
+        padding: 10px 20px;
+        margin-top: 20px;
+        width: 150px;
+        @include  btn-create;
+        
+    }
+    
 }
+

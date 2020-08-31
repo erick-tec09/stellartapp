@@ -7,17 +7,35 @@
   font-family: "Open Sans", sans-serif; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_golbal\.scss}line{font-family:\0000311}}
+h1, h2, h3, h4, h5, h5 {
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_golbal\.scss}line{font-family:\0000316}}
 li {
   list-style: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_golbal\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_golbal\.scss}line{font-family:\0000319}}
 a {
   text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_golbal\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_golbal\.scss}line{font-family:\0000323}}
 input, textarea {
   outline: none;
   border: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_mixing\.scss}line{font-family:\0000343}}
+.btn {
+  background: linear-gradient(90deg, #2949E0 0%, #C32FF7 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  outline: none;
+  color: #FFFFFF;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 150px;
+  text-align: center;
+  display: block;
+  margin: 0px auto; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_header\.scss}line{font-family:\000031}}
 .header {
@@ -76,7 +94,8 @@ input, textarea {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_menu\.scss}line{font-family:\0000346}}
     .menu .menu__btn--create {
       background: linear-gradient(90deg, #2949E0 0%, #C32FF7 100%);
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      outline: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_menu\.scss}line{font-family:\0000351}}
   .menu .btn-menu {
     color: #FFFFFF;
@@ -88,6 +107,120 @@ input, textarea {
     right: 20%;
     font-size: 1.5em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_hero\.scss}line{font-family:\000031}}
+.hero {
+  background: #0F0E11;
+  color: #FFFFFF;
+  padding: 0px 30px;
+  height: 320px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_hero\.scss}line{font-family:\000039}}
+  .hero .hero__title {
+    padding: 20px 0px;
+    line-height: 40px;
+    font-size: 40px;
+    font-family: "Bitter", serif;
+    text-transform: capitalize; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_hero\.scss}line{font-family:\0000318}}
+  .hero .hero__text {
+    font-family: "Open Sans", sans-serif;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-size: 15px;
+    line-height: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_hero\.scss}line{font-family:\0000326}}
+  .hero .hero__link {
+    color: #FFFFFF;
+    display: block;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: 150px;
+    background: linear-gradient(90deg, #2949E0 0%, #C32FF7 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_abstract\.scss}line{font-family:\000031}}
+.abstract {
+  background: url(../../images/Mapa\ 001\ 1.png) no-repeat red;
+  height: 700px;
+  background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_abstract\.scss}line{font-family:\0000310}}
+  .abstract__cuadros {
+    background: url(../../images/Bloque2.png) no-repeat red;
+    height: 700px;
+    background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_details\.scss}line{font-family:\000034}}
+.details {
+  background: #0F0E11;
+  color: #FFFFFF;
+  padding: 0px 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_details\.scss}line{font-family:\0000310}}
+  .details .details__title {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 0px;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_details\.scss}line{font-family:\0000319}}
+  .details .details__itmes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_details\.scss}line{font-family:\0000324}}
+    .details .details__itmes .details__text {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 100;
+      margin-left: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_origin\.scss}line{font-family:\000031}}
+.origin {
+  padding: 0px 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_origin\.scss}line{font-family:\000034}}
+  .origin .origin__title {
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_origin\.scss}line{font-family:\0000313}}
+  .origin .origin__text {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 20px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_origin\.scss}line{font-family:\0000319}}
+    .origin .origin__text .origin__bold {
+      font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_aniversari\.scss}line{font-family:\000031}}
+.anniversary {
+  background: #0F0E11;
+  color: #FFFFFF;
+  padding: 0px 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_aniversari\.scss}line{font-family:\000036}}
+  .anniversary .aniversary__title {
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_aniversari\.scss}line{font-family:\0000314}}
+  .anniversary .aniversary__text {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 20px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_aniversari\.scss}line{font-family:\0000322}}
+  .anniversary .aniversary__txt {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 20px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_aniversari\.scss}line{font-family:\0000328}}
+    .anniversary .aniversary__txt--bold {
+      font-weight: bold;
+      color: red;
+      background: red; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\000031}}
 .foother {
   background: #0F0E11;
@@ -97,39 +230,63 @@ input, textarea {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\000038}}
   .foother .header__foother {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\0000327}}
+    width: 360px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\0000320}}
+    .foother .header__foother .img_foother {
+      width: 100PX;
+      height: 50PX;
+      line-height: 100PX; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\0000336}}
   .foother .nav__foother {
     margin-top: 20px;
-    height: 200px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\0000330}}
+    height: 200px;
+    width: 300px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\0000341}}
     .foother .nav__foother .lists__foother {
       display: flex;
       flex-direction: row;
-      width: 300px;
       flex-wrap: wrap;
-      margin: 0px auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\0000337}}
-    .foother .nav__foother .list_foother {
-      padding: 20px 0px;
-      margin-left: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\0000343}}
-      .foother .nav__foother .list_foother .foother__link {
-        font-family: "Open Sans", sans-serif;
-        color: red; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\0000357}}
+      justify-content: space-between;
+      justify-items: center;
+      width: 400px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\0000354}}
+      .foother .nav__foother .lists__foother .list__foother {
+        width: 150PX;
+        padding: 10PX 0PX;
+        margin: 5px 0px;
+        text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\0000361}}
+        .foother .nav__foother .lists__foother .list__foother .foother__link {
+          color: blue;
+          font-size: 14px;
+          color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\0000365}}
+          .foother .nav__foother .lists__foother .list__foother .foother__link--idioma {
+            order: 1;
+            color: #FFFFFF;
+            border: 1px solid #FFFFFF;
+            padding: 10px  20px;
+            border-radius: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\0000378}}
+      .foother .nav__foother .lists__foother .foother__icon {
+        margin-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\0000384}}
+    .foother .nav__foother .foother__btn {
+      display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\0000392}}
   .foother .foother__icons {
     text-align: center;
     font-size: 1.2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\0000395}}
     .foother .foother__icons .foother__icons {
-      margin: 0px 5px;
+      margin: 20px 5px;
       cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/NINO\/Desktop\/Proyectos\%20Web\/Stellartapp\/scss\/componets\/_foother\.scss}line{font-family:\00003102}}
   .foother .copyright {
     text-align: center;
-    padding: 30px 30px; }
+    padding: 0px 30px;
+    line-height: 25px; }
 
 /*# sourceMappingURL=style.css.map */

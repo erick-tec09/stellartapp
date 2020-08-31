@@ -34,10 +34,31 @@
 @mixin btn-create {
     background: linear-gradient(90deg, #2949E0 0%, #C32FF7 100%);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        outline: none;
        
 }
 
 
+
+.btn{
+
+    background: linear-gradient(90deg, #2949E0 0%, #C32FF7 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: none;
+    color: $color-white;
+    border-radius: 20px;
+    padding: 10px 20px;
+   
+    width: 150px;
+    text-align: center;
+
+    display: block;
+
+    margin: 0px auto;
+
+
+
+}
 //========================= Media query =============================================
 
 

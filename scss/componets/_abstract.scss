@@ -1,0 +1,20 @@
+.abstract{
+
+    background: url(../../images/Mapa\ 001\ 1.png) no-repeat red;
+   
+
+    height: 700px;
+
+    background-size: cover;
+
+    &__cuadros{
+
+        background: url(../../images/Bloque2.png) no-repeat red;
+   
+
+        height: 700px;
+    
+        background-size: cover;
+    }
+    
+}
